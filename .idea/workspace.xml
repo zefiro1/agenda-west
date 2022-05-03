@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef3fd03-bf84-4188-b796-299c3b423205" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.attach_pid17238" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid27851" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid28018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/css/tableView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/AnadirLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/MenuLayout.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid22843" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid46890" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.gitignore" afterDir="false" />
@@ -74,6 +80,52 @@
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/Carrera.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/CentroEstudio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/AgendaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/AgendaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/AnadirController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/AnadirController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/BuscarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/BuscarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/dao/ContactoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/dao/ContactoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/AnadirLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/BuscarLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/BuscarLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/MenuLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/agenda.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/agenda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/agregar-usuario.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/agregar-usuario.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/anadir.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/anadir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/codigo-postal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/codigo-postal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/computadora-portatil.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/computadora-portatil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/daga.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/daga.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/edificios.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/edificios.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/espada.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/espada.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/fecha-de-nacimiento.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/fecha-de-nacimiento.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/lista-de-verificacion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/lista-de-verificacion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/mapa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/mapa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/ubicacion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/ubicacion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/usuario.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/icons/usuario.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/AgendaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/AgendaApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/AnadirLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/BuscarLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/MenuLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/AnadirController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/AnadirController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/agregar-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/anadir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/codigo-postal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/computadora-portatil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/daga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/edificios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/espada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/fecha-de-nacimiento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/lista-de-verificacion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/mapa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/ubicacion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/iconos/usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/models/dao/ContactoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/models/dao/ContactoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/ReadXMLSaxParaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/ReadXMLSaxParaser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/handler/DefaultHandlerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/handler/DefaultHandlerMod.java" afterDir="false" />
@@ -132,6 +184,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../irritable-baba-yaga" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/agendawest/views/" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/agendawest/views" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.agendawest" />
     </key>

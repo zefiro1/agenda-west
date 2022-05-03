@@ -18,4 +18,7 @@ module com.agendawest {
     exports com.agendawest.models.dao;
     exports com.agendawest.controllers;
     opens com.agendawest.controllers to javafx.fxml;
+    opens com.agendawest.icons;
+    opens com.agendawest.views.layout;
+    opens com.agendawest.views.css;
 }

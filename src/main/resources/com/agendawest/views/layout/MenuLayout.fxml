@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #914429;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agendawest.controllers.MenuController">
+   <children>
+      <BorderPane layoutX="162.0" layoutY="36.0">
+         <center>
+            <Label fx:id="header" prefHeight="57.0" prefWidth="321.0" style="-fx-background-color: #DEB01D; -fx-background-radius: 20;" text="Agenda de Contactos" textAlignment="CENTER">
+               <font>
+                  <Font size="26.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="15.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+         </center>
+      </BorderPane>
+      <VBox layoutX="254.0" layoutY="243.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnAnadir" mnemonicParsing="false" onAction="#changeLayoutAnadirLayout" prefHeight="33.0" prefWidth="98.0" style="-fx-background-color: #DEB01D; -fx-background-radius: 20;" text="Añadir" textAlignment="CENTER" textFill="#404040" />
+            <Button fx:id="btnBuscar" mnemonicParsing="false" onAction="#changeLayoutBuscarLayout" prefHeight="33.0" prefWidth="98.0" style="-fx-background-color: #DEB01D; -fx-background-radius: 20;" text="Buscar" textAlignment="CENTER" textFill="#404040" />
+         </children>
+      </VBox>
+      <Group layoutX="256.0" layoutY="118.0">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/espada.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

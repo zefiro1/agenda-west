@@ -56,9 +56,6 @@ public class ContactoDAO {
         if(nombre.isEmpty()){
             throw new IllegalArgumentException("Error el nombre no puede estar vacio");
         }
-        if(nombre.length() <= 3){
-            throw new IllegalArgumentException("Error el nombre tiene que ser >= 3");
-        }
         if(nombre.equalsIgnoreCase("null")){
             throw new NullPointerException("Error el nombre no puede ser null");
         }
@@ -78,9 +75,7 @@ public class ContactoDAO {
         if(primerApellido.isEmpty()){
             throw new IllegalArgumentException("Error el primer apellido no puede estar vacio");
         }
-        if(primerApellido.length() <= 6){
-            throw new IllegalArgumentException("Error el primer apellido tiene que ser >= 6");
-        }
+
         this.primerApellido = new SimpleStringProperty(primerApellido);
     }
 
@@ -95,9 +90,6 @@ public class ContactoDAO {
     public void setSegundoApellido(@NotNull String segundoApellido) {
         if(segundoApellido.isEmpty()){
             throw new IllegalArgumentException("Error el segundo apellido no puede estar vacio");
-        }
-        if(segundoApellido.length() <= 6){
-            throw new IllegalArgumentException("Error el segundo apellido tiene que ser >= 6");
         }
         this.segundoApellido = new SimpleStringProperty(segundoApellido);
     }
@@ -114,9 +106,6 @@ public class ContactoDAO {
         if(direccion.isEmpty()){
             throw new IllegalArgumentException("Error la direccion no puede estar vacio");
         }
-        if(direccion.length() <= 6){
-            throw new IllegalArgumentException("Error la direccion tiene que ser >= 6");
-        }
         this.direccion = new SimpleStringProperty(direccion);
     }
 
@@ -132,9 +121,6 @@ public class ContactoDAO {
         if(ciudad.isEmpty()){
             throw new IllegalArgumentException("Error la ciudad no puede estar vacio");
         }
-        if(ciudad.length() <= 4){
-            throw new IllegalArgumentException("Error la ciudad tiene que ser >= 4");
-        }
         this.ciudad = new SimpleStringProperty(ciudad);
     }
 
@@ -149,9 +135,6 @@ public class ContactoDAO {
     public void setCodigoPostal(@NotNull String codigoPostal) {
         if(codigoPostal.isEmpty()){
             throw new IllegalArgumentException("Error la codigo postal no puede estar vacio");
-        }
-        if(codigoPostal.length() == 5){
-            throw new IllegalArgumentException("Error la codigo postal tiene que ser =5");
         }
         this.codigoPostal = new SimpleStringProperty(codigoPostal);
     }

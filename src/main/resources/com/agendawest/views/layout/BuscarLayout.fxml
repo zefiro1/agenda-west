@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="414.0" prefWidth="743.0" style="-fx-background-color: #914429;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agendawest.controllers.BuscarController">
    <children>
-      <TableView fx:id="tbViewContactoDao" layoutX="305.0" layoutY="26.0" prefHeight="302.0" prefWidth="428.0" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="26.0">
+      <TableView fx:id="tbViewContactoDao" layoutX="283.0" layoutY="26.0" prefHeight="362.0" prefWidth="439.0" stylesheets="@../css/tableView.css" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="283.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="26.0">
         <columns>
           <TableColumn fx:id="clmnId" prefWidth="48.0" resizable="false" text="#" />
           <TableColumn fx:id="clmnNombre" prefWidth="166.0" text="Nombre" />

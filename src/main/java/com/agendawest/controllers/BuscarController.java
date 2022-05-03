@@ -79,6 +79,7 @@ public class BuscarController implements Initializable {
         listaContactoDAO = FXCollections.observableArrayList();
 
 
+
         tbViewContactoDao.setItems(listaContactoDAO);
         System.out.println(listaContactoDAO);
 
@@ -212,7 +213,7 @@ public class BuscarController implements Initializable {
     }
 
     private void loadView() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(AgendaApp.class.getResource("MenuLayout.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(AgendaApp.class.getResource("views/layout/MenuLayout.fxml"));
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root);
         Stage stage = new Stage();

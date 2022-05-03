@@ -70,7 +70,7 @@ public class MenuController implements Initializable {
     @FXML
     public void changeLayoutAnadirLayout(ActionEvent actionEvent) {
         try {
-            loadView("AnadirLayout");
+            loadView("views/layout/AnadirLayout");
             closeMenu(actionEvent);
         } catch (IOException e) {
             e.printStackTrace();
@@ -82,7 +82,7 @@ public class MenuController implements Initializable {
     @FXML
     public void changeLayoutBuscarLayout(ActionEvent actionEvent) {
         try {
-            loadView("BuscarLayout");
+            loadView("views/layout/BuscarLayout");
             closeMenu(actionEvent);
         } catch (IOException e) {
             e.printStackTrace();

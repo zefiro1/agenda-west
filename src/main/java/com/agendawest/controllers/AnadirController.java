@@ -136,7 +136,7 @@ public class AnadirController implements Initializable {
     }
 
     private void loadView() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(AgendaApp.class.getResource("MenuLayout.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(AgendaApp.class.getResource("views/layout/MenuLayout.fxml"));
         Parent root = fxmlLoader.load();
         Scene scene = new Scene(root);
         Stage stage = new Stage();
