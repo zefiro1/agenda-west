@@ -121,8 +121,18 @@ public class BuscarController implements Initializable {
             }
         } catch (NullPointerException | IllegalArgumentException e) {
 
-            System.out.println(e.getMessage());
+            listaContactoDAO.add(contactoDAO);
+            Alert mensaje = new Alert(Alert.AlertType.ERROR);
+            mensaje.setHeaderText("Resultado:");
+            mensaje.setContentText(e.getMessage());
+            mensaje.show();
+            if(e.getMessage().equals("Cannot invoke \"java.time.LocalDate.getYear()\" because \"date\" is null")){
+                listaContactoDAO.add(contactoDAO);
+                mensaje.setHeaderText("Resultado:");
+                mensaje.setContentText("Error al agregar registro causado por: La fecha no puede ser nula");
+                mensaje.show();
 
+            }
         }
     }
 

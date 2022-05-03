@@ -2,12 +2,10 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.DatePicker?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #914429;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.agendawest.controllers.AnadirController">
    <children>
@@ -20,41 +18,6 @@
             <TextField fx:id="txtCiudad" layoutX="45.0" layoutY="195.0" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: #DEB01D; -fx-background-radius: 20;" text="Ciudad" />
             <TextField fx:id="txtCodigoPostal" layoutX="44.0" layoutY="238.0" prefHeight="25.0" prefWidth="152.0" style="-fx-background-color: #DEB01D; -fx-background-radius: 20;" text="Codigo Postal" />
             <DatePicker fx:id="datePickerFechaNacimiento" layoutX="44.0" layoutY="278.0" prefHeight="25.0" prefWidth="151.0" promptText="Fecha de Nacimiento" style="-fx-background-color: #DEB01D;" />
-            <Label fx:id="lError1" layoutX="7.0" layoutY="25.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="lError2" layoutX="6.0" layoutY="70.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="lError3" layoutX="6.0" layoutY="104.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="lError4" layoutX="7.0" layoutY="145.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="lError5" layoutX="6.0" layoutY="181.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="lError6" layoutX="7.0" layoutY="222.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
-            <Label fx:id="lError7" layoutX="6.0" layoutY="265.0" prefHeight="10.0" prefWidth="236.0">
-               <font>
-                  <Font size="8.0" />
-               </font>
-            </Label>
          </children>
       </AnchorPane>
       <AnchorPane layoutX="325.0" layoutY="14.0" prefHeight="372.0" prefWidth="249.0" style="-fx-background-color: #DE6033; -fx-background-radius: 30;">

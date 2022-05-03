@@ -42,21 +42,9 @@ public class AnadirController implements Initializable {
     @FXML
     private Button btnAtras;
 
-    @FXML
-    private Label lError1;
 
-    @FXML
-    private Label lError2;
-    @FXML
-    private Label lError3;
-    @FXML
-    private Label lError4;
-    @FXML
-    private Label lError5;
-    @FXML
-    private Label lError6;
-    @FXML
-    private Label lError7;
+
+
 
 
     private ObservableList<ContactoDAO> listaContactoDAO;
@@ -102,55 +90,18 @@ public class AnadirController implements Initializable {
             }
         } catch (NullPointerException | IllegalArgumentException e) {
 
-            if (e.getMessage().equals("Error el nombre no puede estar vacio")
-                    || e.getMessage().equals("Error el nombre tiene que ser >= 3")
-                    || e.getMessage().equals("Error el nombre no puede ser null")) {
+            listaContactoDAO.add(contactoDAO);
+            Alert mensaje = new Alert(Alert.AlertType.ERROR);
+            mensaje.setHeaderText("Resultado:");
+            mensaje.setContentText(e.getMessage());
+            mensaje.show();
+            if(e.getMessage().equals("Cannot invoke \"java.time.LocalDate.getYear()\" because \"date\" is null")){
+                listaContactoDAO.add(contactoDAO);
+                mensaje.setHeaderText("Resultado:");
+                mensaje.setContentText("Error al agregar registro causado por: La fecha no puede ser nula");
+                mensaje.show();
 
-                setStyleTxtField(txtNombre);
-                lError1.setText(e.getMessage());
-                lError1.setVisible(true);
             }
-            if (e.getMessage().equals("Error el primer apellido no puede estar vacio")
-                    || e.getMessage().equals("Error el primer apellido tiene que ser >= 6")
-            ) {
-                setStyleTxtField(txtPrimerApellido);
-                lError2.setText(e.getMessage());
-                lError2.setVisible(true);
-            }
-            if (e.getMessage().equals("Error el segundo apellido no puede estar vacio")
-                    || e.getMessage().equals("Error el segundo apellido tiene que ser >= 6")
-            ) {
-                setStyleTxtField(txtSegundoApellido);
-                lError3.setText(e.getMessage());
-                lError3.setVisible(true);
-            }
-            if (e.getMessage().equals("Error la direccion no puede estar vacio")
-                    || e.getMessage().equals("Error la direccion tiene que ser >= 6")
-            ) {
-                setStyleTxtField(txtDireccion);
-                lError4.setText(e.getMessage());
-                lError4.setVisible(true);
-            }
-            if (e.getMessage().equals("Error la ciudad no puede estar vacio")
-                    || e.getMessage().equals("Error la ciudad tiene que ser >= 4")
-            ) {
-                setStyleTxtField(txtCiudad);
-                lError5.setText(e.getMessage());
-                lError5.setVisible(true);
-            }
-            if (e.getMessage().equals("Error la codigo postal no puede estar vacio")
-                    || e.getMessage().equals("Error la codigo postal tiene que ser >= 5")
-            ) {
-                setStyleTxtField(txtCodigoPostal);
-                lError6.setText(e.getMessage());
-                lError6.setVisible(true);
-            }
-            if (e.getMessage().equals("Cannot invoke \"java.time.LocalDate.getYear()\" because \"date\" is null")) {
-                setStyleDatePicker(datePickerFechaNacimiento);
-                lError7.setText("Error la fecha no puede estar en blanco");
-                lError7.setVisible(true);
-            }
-
 
         }
 
