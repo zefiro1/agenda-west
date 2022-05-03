@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef3fd03-bf84-4188-b796-299c3b423205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/iconos/agenda.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid22843" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid46890" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.gitignore" afterDir="false" />
@@ -75,17 +74,6 @@
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/Carrera.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/CentroEstudio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/Conexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/AgendaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/AgendaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/AnadirController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/AnadirController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/BuscarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/BuscarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/AnadirLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/AnadirLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/AnadirLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/AnadirLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/AnadirController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/AnadirController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/ReadXMLSaxParaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/ReadXMLSaxParaser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/handler/DefaultHandlerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/handler/DefaultHandlerMod.java" afterDir="false" />
