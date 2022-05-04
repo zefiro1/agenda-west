@@ -1,16 +1,16 @@
 package com.agendawest.models.crud;
 
-import com.agendawest.models.dao.ContactoDAO;
+import com.agendawest.models.dao.Contacto;
 import javafx.collections.ObservableList;
 
 import java.sql.*;
 
-public class ContactoCRUD {
+public class ContactoDAO {
 
-    private ContactoCRUD() {
+    private ContactoDAO() {
     }
 
-    public static int create(Connection connection, ContactoDAO contacto) {
+    public static int create(Connection connection, Contacto contacto) {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
                                         
@@ -44,7 +44,7 @@ public class ContactoCRUD {
         }
     }
 
-    public static void read(Connection connection, ObservableList<ContactoDAO> lista) {
+    public static void read(Connection connection, ObservableList<Contacto> lista) {
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("""
@@ -64,7 +64,7 @@ public class ContactoCRUD {
                     """);
             while (resultSet.next()) {
                 lista.add(
-                        new ContactoDAO(
+                        new Contacto(
                                 resultSet.getInt("id"),
                                 resultSet.getString("Nombre"),
                                 resultSet.getString("Primer_Apellido"),
@@ -85,7 +85,7 @@ public class ContactoCRUD {
 
     }
 
-    public static int update(Connection connection, ContactoDAO contacto){
+    public static int update(Connection connection, Contacto contacto){
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
                     UPDATE Contacto
@@ -115,14 +115,14 @@ public class ContactoCRUD {
 
     }
 
-    public static int delete(Connection connection, ContactoDAO contactoDAO){
+    public static int delete(Connection connection, Contacto contacto){
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
                     DELETE FROM Contacto
                         WHERE 
                             id = ?
                     """);
-            preparedStatement.setInt(1,contactoDAO.getId());
+            preparedStatement.setInt(1, contacto.getId());
             return preparedStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();

@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.sql.*;
 
-public class ContactoDAO {
+public class Contacto {
 
     private IntegerProperty id;
     private StringProperty nombre;
@@ -19,9 +19,9 @@ public class ContactoDAO {
     private StringProperty codigoPostal;
     private Date fechaNacimiento;
 
-    public ContactoDAO(Integer id, String nombre, String primerApellido,
-                       String segundoApellido, String direccion, String ciudad,
-                       String codigo_postal, Date fechaNacimiento){
+    public Contacto(Integer id, String nombre, String primerApellido,
+                    String segundoApellido, String direccion, String ciudad,
+                    String codigo_postal, Date fechaNacimiento){
         setId(id);
         setNombre(nombre);
         setPrimerApellido(primerApellido);
