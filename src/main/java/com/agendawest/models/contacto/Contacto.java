@@ -1,4 +1,4 @@
-package com.agendawest.models.dao;
+package com.agendawest.models.contacto;
 
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;

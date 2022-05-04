@@ -1,16 +1,19 @@
-package com.agendawest.models.crud;
+package com.agendawest.models.contacto;
 
-import com.agendawest.models.dao.Contacto;
+import com.agendawest.models.jdbc.MyConnection;
 import javafx.collections.ObservableList;
 
 import java.sql.*;
 
 public class ContactoDAO {
 
+    private static Connection connection = MyConnection.getConnection();
+
     private ContactoDAO() {
+
     }
 
-    public static int create(Connection connection, Contacto contacto) {
+    public static int create(Contacto contacto) {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
                                         
@@ -44,7 +47,7 @@ public class ContactoDAO {
         }
     }
 
-    public static void read(Connection connection, ObservableList<Contacto> lista) {
+    public static void read( ObservableList<Contacto> lista) {
         try {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("""
@@ -85,7 +88,7 @@ public class ContactoDAO {
 
     }
 
-    public static int update(Connection connection, Contacto contacto){
+    public static int update(Contacto contacto){
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
                     UPDATE Contacto
@@ -115,7 +118,7 @@ public class ContactoDAO {
 
     }
 
-    public static int delete(Connection connection, Contacto contacto){
+    public static int delete(Contacto contacto){
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
                     DELETE FROM Contacto

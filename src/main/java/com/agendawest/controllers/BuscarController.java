@@ -1,9 +1,9 @@
 package com.agendawest.controllers;
 
 import com.agendawest.AgendaApp;
-import com.agendawest.models.crud.ContactoCRUD;
-import com.agendawest.models.dao.ContactoDAO;
-import com.agendawest.models.jdbc.ConexionMariaDB;
+import com.agendawest.models.contacto.ContactoDAO;
+import com.agendawest.models.contacto.Contacto;
+import com.agendawest.models.jdbc.MyConnection;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -19,6 +19,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -30,15 +31,15 @@ import java.util.ResourceBundle;
 public class BuscarController implements Initializable {
 
     @FXML
-    private TableView<ContactoDAO> tbViewContactoDao;
+    private TableView<Contacto> tbViewContactoDao;
     @FXML
-    private TableColumn<ContactoDAO, Number> clmnId;
+    private TableColumn<Contacto, Number> clmnId;
     @FXML
-    private TableColumn<ContactoDAO, String> clmnNombre;
+    private TableColumn<Contacto, String> clmnNombre;
     @FXML
-    private TableColumn<ContactoDAO, String> clmnPrimerApellido;
+    private TableColumn<Contacto, String> clmnPrimerApellido;
     @FXML
-    private TableColumn<ContactoDAO, String> clmnSegundoApellido;
+    private TableColumn<Contacto, String> clmnSegundoApellido;
 
     @FXML
     private TextField txtNombre;
@@ -64,42 +65,40 @@ public class BuscarController implements Initializable {
     @FXML
     private Button btnBorrar;
 
-    private ObservableList<ContactoDAO> listaContactoDAO;
+    private ObservableList<Contacto> listaContacto;
 
-    private ContactoDAO contactoDAO;
+    private Contacto contacto;
 
-    private ConexionMariaDB conexionMariaDB;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        conexionMariaDB = new ConexionMariaDB();
-        conexionMariaDB.establishConnection();
-
-
-        listaContactoDAO = FXCollections.observableArrayList();
 
 
 
-        tbViewContactoDao.setItems(listaContactoDAO);
-        System.out.println(listaContactoDAO);
+        listaContacto = FXCollections.observableArrayList();
+
+
+        tbViewContactoDao.setItems(listaContacto);
+        System.out.println(listaContacto);
 
         clmnId.setCellValueFactory(new PropertyValueFactory<>("id"));
         clmnNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
         clmnPrimerApellido.setCellValueFactory(new PropertyValueFactory<>("primerApellido"));
         clmnSegundoApellido.setCellValueFactory(new PropertyValueFactory<>("segundoApellido"));
 
-        ContactoCRUD.read(conexionMariaDB.getConnection(), listaContactoDAO);
+        ContactoDAO.read(listaContacto);
         search();
 
         showDate();
-        conexionMariaDB.close();
+
+
     }
 
     @FXML
     public  void updateRecord() {
         try {
             for (int i = 0; i < tbViewContactoDao.getItems().size(); i++) {
-                contactoDAO = new ContactoDAO(
+                contacto = new Contacto(
                         tbViewContactoDao.getItems().get(i).getId(),
                         txtNombre.getText()
                         , txtPrimerApellido.getText(),
@@ -110,11 +109,10 @@ public class BuscarController implements Initializable {
                         Date.valueOf(datePickerFechaNacimiento.getValue())
                 );
             }
-            conexionMariaDB.establishConnection();
-            int resultado = ContactoCRUD.update(conexionMariaDB.getConnection(), contactoDAO);
-            conexionMariaDB.close();
+
+            int resultado = ContactoDAO.update(contacto);
             if (resultado == 1) {
-                listaContactoDAO.add(contactoDAO);
+                listaContacto.add(contacto);
                 Alert mensaje = new Alert(Alert.AlertType.CONFIRMATION);
                 mensaje.setHeaderText("Resultado:");
                 mensaje.setContentText("El registro ha sido actualizado");
@@ -122,13 +120,13 @@ public class BuscarController implements Initializable {
             }
         } catch (NullPointerException | IllegalArgumentException e) {
 
-            listaContactoDAO.add(contactoDAO);
+            listaContacto.add(contacto);
             Alert mensaje = new Alert(Alert.AlertType.ERROR);
             mensaje.setHeaderText("Resultado:");
             mensaje.setContentText(e.getMessage());
             mensaje.show();
             if(e.getMessage().equals("Cannot invoke \"java.time.LocalDate.getYear()\" because \"date\" is null")){
-                listaContactoDAO.add(contactoDAO);
+                listaContacto.add(contacto);
                 mensaje.setHeaderText("Resultado:");
                 mensaje.setContentText("Error al agregar registro causado por: La fecha no puede ser nula");
                 mensaje.show();
@@ -139,12 +137,12 @@ public class BuscarController implements Initializable {
 
     @FXML
     public void deleteRecord(){
-        conexionMariaDB.establishConnection();
-        contactoDAO = tbViewContactoDao.getSelectionModel().getSelectedItem();
-        int resultado = ContactoCRUD.delete(conexionMariaDB.getConnection(),contactoDAO);
-        conexionMariaDB.close();
+
+        contacto = tbViewContactoDao.getSelectionModel().getSelectedItem();
+        int resultado = ContactoDAO.delete(contacto);
+
         if(resultado == 1){
-            listaContactoDAO.remove(tbViewContactoDao.getSelectionModel().getSelectedIndex());
+            listaContacto.remove(tbViewContactoDao.getSelectionModel().getSelectedIndex());
             Alert mensaje = new Alert(Alert.AlertType.INFORMATION);
             mensaje.setContentText("El registro ha sido eliminado exitosamente");
             mensaje.setHeaderText("Resultado:");
@@ -153,20 +151,20 @@ public class BuscarController implements Initializable {
     }
 
     public void search() {
-        FilteredList<ContactoDAO> filteredList = new FilteredList<>(listaContactoDAO, b -> true);
+        FilteredList<Contacto> filteredList = new FilteredList<>(listaContacto, b -> true);
         txtSearch.textProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {
-                filteredList.setPredicate(contactoDAO1 -> {
+                filteredList.setPredicate(contacto1 -> {
                     if (t1 == null || t1.isEmpty()) {
                         return true;
 
                     }
 
                     String lowerCaseFilter = t1.toLowerCase(Locale.ROOT);
-                    if (String.valueOf(contactoDAO1.getId()).toLowerCase(Locale.ROOT).contains(lowerCaseFilter)) {
+                    if (String.valueOf(contacto1.getId()).toLowerCase(Locale.ROOT).contains(lowerCaseFilter)) {
                         return true;
-                    } else if (contactoDAO1.getNombre().toLowerCase(Locale.ROOT).contains(lowerCaseFilter)) {
+                    } else if (contacto1.getNombre().toLowerCase(Locale.ROOT).contains(lowerCaseFilter)) {
                         return true;
                     } else {
                         return false;
@@ -175,16 +173,16 @@ public class BuscarController implements Initializable {
             }
         });
 
-        SortedList<ContactoDAO> sortedList = new SortedList<>(filteredList);
+        SortedList<Contacto> sortedList = new SortedList<>(filteredList);
         sortedList.comparatorProperty().bind(tbViewContactoDao.comparatorProperty());
         tbViewContactoDao.setItems(sortedList);
 
     }
 
     public void showDate() {
-        tbViewContactoDao.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<ContactoDAO>() {
+        tbViewContactoDao.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Contacto>() {
             @Override
-            public void changed(ObservableValue<? extends ContactoDAO> observableValue, ContactoDAO contactoDAO, ContactoDAO t1) {
+            public void changed(ObservableValue<? extends Contacto> observableValue, Contacto contacto, Contacto t1) {
                 if (t1 != null) {
                     txtNombre.setText(t1.getNombre());
                     txtPrimerApellido.setText(t1.getPrimerApellido());
@@ -218,6 +216,7 @@ public class BuscarController implements Initializable {
         Scene scene = new Scene(root);
         Stage stage = new Stage();
         stage.setScene(scene);
+        stage.getIcons().add(new Image("/com/agendawest/icons/agenda.png"));
         stage.show();
     }
 

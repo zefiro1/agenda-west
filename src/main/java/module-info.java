@@ -11,14 +11,15 @@ module com.agendawest {
     requires eu.hansolo.tilesfx;
     requires java.sql;
     requires org.jetbrains.annotations;
+    requires org.mariadb.jdbc;
 
     opens com.agendawest to javafx.fxml;
     exports com.agendawest;
-    opens com.agendawest.models.dao to javafx.fxml;
-    exports com.agendawest.models.dao;
     exports com.agendawest.controllers;
     opens com.agendawest.controllers to javafx.fxml;
     opens com.agendawest.icons;
     opens com.agendawest.views.layout;
     opens com.agendawest.views.css;
+    exports com.agendawest.models.contacto;
+    opens com.agendawest.models.contacto to javafx.fxml;
 }
