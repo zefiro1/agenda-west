@@ -9,88 +9,88 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef3fd03-bf84-4188-b796-299c3b423205" name="Changes" comment="Agenda V0.4">
+    <list default="true" id="3ef3fd03-bf84-4188-b796-299c3b423205" name="Changes" comment="Agenda V0.5">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/agenda_west_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/AgendaApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/class-use/AgendaApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/AnadirController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/BuscarController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/MenuController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/class-use/AnadirController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/class-use/BuscarController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/class-use/MenuController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/Contacto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/ContactoDAO.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/class-use/Contacto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/class-use/ContactoDAO.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/MyConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/class-use/MyConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.agendawest/module-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/AgendaApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/class-use/AgendaApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/AnadirController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/BuscarController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/MenuController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/class-use/AnadirController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/class-use/BuscarController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/class-use/MenuController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/controllers/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/Contacto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/ContactoDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/class-use/Contacto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/class-use/ContactoDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/contacto/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/jdbc/MyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/jdbc/class-use/MyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/jdbc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/jdbc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/models/jdbc/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/com/agendawest/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/com.agendawest/module-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/type-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid22843" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid46890" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.gitignore" afterDir="false" />
@@ -275,6 +275,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651406618408</updated>
     </task>
+    <task id="LOCAL-00001" summary="Agenda V0.5">
+      <created>1651657597972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651657597972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +316,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Agenda V0.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agenda V0.4" />
+    <MESSAGE value="Agenda V0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agenda V0.5" />
   </component>
 </project>
