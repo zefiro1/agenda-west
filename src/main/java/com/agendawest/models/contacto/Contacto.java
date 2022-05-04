@@ -8,6 +8,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.sql.*;
 
+/**
+ * Clase POJO Contacto
+ */
 public class Contacto {
 
     private IntegerProperty id;

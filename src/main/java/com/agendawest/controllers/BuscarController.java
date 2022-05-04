@@ -28,6 +28,9 @@ import java.sql.Date;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+/**
+ * Controlador de la vista BuscarLayout
+ */
 public class BuscarController implements Initializable {
 
     @FXML
@@ -94,6 +97,9 @@ public class BuscarController implements Initializable {
 
     }
 
+    /**
+     * Actualiza un registro
+     */
     @FXML
     public  void updateRecord() {
         try {
@@ -135,6 +141,9 @@ public class BuscarController implements Initializable {
         }
     }
 
+    /**
+     * Borra un registro
+     */
     @FXML
     public void deleteRecord(){
 
@@ -150,6 +159,9 @@ public class BuscarController implements Initializable {
         }
     }
 
+    /**
+     * Busca un registro
+     */
     public void search() {
         FilteredList<Contacto> filteredList = new FilteredList<>(listaContacto, b -> true);
         txtSearch.textProperty().addListener(new ChangeListener<String>() {
@@ -179,6 +191,9 @@ public class BuscarController implements Initializable {
 
     }
 
+    /**
+     * Muestra los datos de los registros en el table view
+     */
     public void showDate() {
         tbViewContactoDao.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Contacto>() {
             @Override

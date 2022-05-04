@@ -4,6 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Se conecta con la base de datos usando mariadb
+ */
 public class MyConnection {
     private static Connection conn = null;
 
@@ -23,6 +26,10 @@ public class MyConnection {
         }
     }
 
+    /**
+     * Establece una conexion con la base de datos
+     * @return una conexion con la base de datos
+     */
     public static Connection getConnection() {
         if (conn == null) {
             new MyConnection();
@@ -30,6 +37,9 @@ public class MyConnection {
         return conn;
     }
 
+    /**
+     * Cierra la conexion con la base de datos
+     */
     public static void close() {
 
         try {

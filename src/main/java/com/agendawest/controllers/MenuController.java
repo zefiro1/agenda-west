@@ -4,8 +4,6 @@ import com.agendawest.AgendaApp;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
-import javafx.event.Event;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -14,7 +12,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.Tab;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
@@ -23,6 +20,9 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * Controlador de la vista MenuLayout
+ */
 public class MenuController implements Initializable {
 
     @FXML
@@ -41,6 +41,9 @@ public class MenuController implements Initializable {
         eventHover();
     }
 
+    /**
+     * Efecto visual en los botones
+     */
     public void eventHover() {
         btnAnadir.hoverProperty().addListener(new ChangeListener<Boolean>() {
             @Override
@@ -72,6 +75,10 @@ public class MenuController implements Initializable {
         });
     }
 
+    /**
+     * Cambia al layout AnadirLayout
+     * @param actionEvent
+     */
     @FXML
     public void changeLayoutAnadirLayout(ActionEvent actionEvent) {
         try {
@@ -84,6 +91,10 @@ public class MenuController implements Initializable {
 
     }
 
+    /**
+     * Cambia al layout BuscarLayout
+     * @param actionEvent
+     */
     @FXML
     public void changeLayoutBuscarLayout(ActionEvent actionEvent) {
         try {
@@ -97,6 +108,11 @@ public class MenuController implements Initializable {
     }
 
 
+    /**
+     * Carga un layout
+     * @param nameLayout
+     * @throws IOException
+     */
     private void loadView(String nameLayout) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AgendaApp.class.getResource(nameLayout + ".fxml"));
         Parent root = fxmlLoader.load();
@@ -106,6 +122,10 @@ public class MenuController implements Initializable {
         stage.show();
     }
 
+    /**
+     * Cierra la escena
+     * @param actionEvent
+     */
     private void closeMenu(ActionEvent actionEvent) {
         Node n = (Node) actionEvent.getSource();
         Stage root = (Stage) n.getScene().getWindow();

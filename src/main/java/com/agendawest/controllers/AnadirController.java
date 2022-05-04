@@ -22,6 +22,9 @@ import java.net.URL;
 import java.sql.Date;
 import java.util.ResourceBundle;
 
+/**
+ * Controlador de la vista AnadirLayout
+ */
 public class AnadirController implements Initializable {
 
     @FXML
@@ -62,6 +65,9 @@ public class AnadirController implements Initializable {
 
     }
 
+    /**
+     * Guarda un registro
+     */
     @FXML
     public void saveRecord() {
 
@@ -109,6 +115,11 @@ public class AnadirController implements Initializable {
     }
 
 
+    /**
+     *
+     * Vuelve atras
+     * @param actionEvent
+     */
     @FXML
     public void goBack(ActionEvent actionEvent) {
         try {
@@ -120,6 +131,10 @@ public class AnadirController implements Initializable {
 
     }
 
+    /**
+     * Carga la vista MenuLayout
+     * @throws IOException
+     */
     private void loadView() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AgendaApp.class.getResource("views/layout/MenuLayout.fxml"));
         Parent root = fxmlLoader.load();
@@ -130,6 +145,10 @@ public class AnadirController implements Initializable {
         stage.show();
     }
 
+    /**
+     * Cierra el stage MenuLayout
+     * @param actionEvent
+     */
     private void closeMenu(ActionEvent actionEvent) {
         Node n = (Node) actionEvent.getSource();
         Stage root = (Stage) n.getScene().getWindow();

@@ -5,6 +5,9 @@ import javafx.collections.ObservableList;
 
 import java.sql.*;
 
+/**
+ * Clase Data Access Object de Contacto
+ */
 public class ContactoDAO {
 
     private static Connection connection = MyConnection.getConnection();
@@ -13,6 +16,12 @@ public class ContactoDAO {
 
     }
 
+    /**
+     *
+     * Crea un contacto en la base de datos
+     * @param contacto
+     * @return 1 si se ha podido crear y 0 si no se ha podido crear
+     */
     public static int create(Contacto contacto) {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
@@ -47,6 +56,10 @@ public class ContactoDAO {
         }
     }
 
+    /**
+     * Lee los datos de la base de datos
+     * @param lista
+     */
     public static void read( ObservableList<Contacto> lista) {
         try {
             Statement statement = connection.createStatement();
@@ -88,6 +101,12 @@ public class ContactoDAO {
 
     }
 
+    /**
+     *
+     * Actualiza las propiedades correspondientes en la base de datos
+     * @param contacto
+     * @return 1 si se ha podido actualizar y 0 si no se ha podido
+     */
     public static int update(Contacto contacto){
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""
@@ -118,6 +137,12 @@ public class ContactoDAO {
 
     }
 
+    /**
+     *
+     * Borra un contacto en la base de datos
+     * @param contacto
+     * @return 1 si se ha podido borrar y 0 si no se ha podido borrar
+     */
     public static int delete(Contacto contacto){
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("""

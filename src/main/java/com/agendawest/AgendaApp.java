@@ -10,6 +10,9 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * AgendaApp inicia la aplicacion
+ */
 public class AgendaApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {

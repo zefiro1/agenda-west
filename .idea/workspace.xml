@@ -1,11 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="agenda-west:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef3fd03-bf84-4188-b796-299c3b423205" name="Changes" comment="Agenda V0.4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/jdbc/MyConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/agenda_west_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/AgendaApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/class-use/AgendaApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/AnadirController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/BuscarController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/MenuController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/class-use/AnadirController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/class-use/BuscarController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/class-use/MenuController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/controllers/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/Contacto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/ContactoDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/class-use/Contacto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/class-use/ContactoDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/contacto/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/MyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/class-use/MyConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/models/jdbc/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/com/agendawest/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.agendawest/module-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../type-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid22843" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.attach_pid46890" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../LeerXML/LeerXML/.gitignore" afterDir="false" />
@@ -75,33 +160,15 @@
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/Carrera.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/CentroEstudio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../irritable-baba-yaga/src/main/java/com/irritablebabayaga/modelo/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/AgendaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/AgendaApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/AnadirController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/AnadirController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/BuscarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/BuscarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/controllers/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/crud/ContactoCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/contacto/ContactoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/dao/ContactoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/contacto/Contacto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/jdbc/ConexionMariaDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/AnadirLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/AnadirLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/BuscarLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/BuscarLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/MenuLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/agendawest/views/layout/MenuLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/AgendaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/AgendaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/AnadirController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/AnadirController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/BuscarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/controllers/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/models/crud/ContactoCRUD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/models/dao/ContactoDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/models/jdbc/ConexionMariaDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/views/layout/AnadirLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/views/layout/AnadirLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/views/layout/BuscarLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/views/layout/BuscarLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/agendawest/views/layout/MenuLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agendawest/views/layout/MenuLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/contacto/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/contacto/Contacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/contacto/ContactoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/contacto/ContactoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agendawest/models/jdbc/MyConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agendawest/models/jdbc/MyConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/ReadXMLSaxParaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/ReadXMLSaxParaser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/handler/DefaultHandlerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeerXML/src/main/java/com/handler/DefaultHandlerMod.java" afterDir="false" />
@@ -133,6 +200,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -162,7 +230,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../irritable-baba-yaga" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0865801" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
