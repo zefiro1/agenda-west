@@ -62,7 +62,9 @@ public class Contacto {
         if(nombre.equalsIgnoreCase("null")){
             throw new NullPointerException("Error el nombre no puede ser null");
         }
-
+        if(nombre.isBlank()){
+            throw new IllegalArgumentException("Error el nombre no puede estar en blanco");
+        }
         this.nombre = new SimpleStringProperty(nombre);
     }
 
@@ -78,7 +80,12 @@ public class Contacto {
         if(primerApellido.isEmpty()){
             throw new IllegalArgumentException("Error el primer apellido no puede estar vacio");
         }
-
+        if(primerApellido.equalsIgnoreCase("null")){
+            throw new NullPointerException("Error el primer apellido no puede ser null");
+        }
+        if(primerApellido.isBlank()){
+            throw new IllegalArgumentException("Error el primer apellido no puede estar en blanco");
+        }
         this.primerApellido = new SimpleStringProperty(primerApellido);
     }
 
@@ -93,6 +100,12 @@ public class Contacto {
     public void setSegundoApellido(@NotNull String segundoApellido) {
         if(segundoApellido.isEmpty()){
             throw new IllegalArgumentException("Error el segundo apellido no puede estar vacio");
+        }
+        if(segundoApellido.equalsIgnoreCase("null")){
+            throw new NullPointerException("Error el segundo apellido no puede ser null");
+        }
+        if(segundoApellido.isBlank()){
+            throw new IllegalArgumentException("Error el segundo apellido no puede estar en blanco");
         }
         this.segundoApellido = new SimpleStringProperty(segundoApellido);
     }
@@ -109,6 +122,12 @@ public class Contacto {
         if(direccion.isEmpty()){
             throw new IllegalArgumentException("Error la direccion no puede estar vacio");
         }
+        if(direccion.equalsIgnoreCase("null")){
+            throw new NullPointerException("Error el primer apellido no puede ser null");
+        }
+        if(direccion.isBlank()){
+            throw new IllegalArgumentException("Error el nombre no puede estar en blanco");
+        }
         this.direccion = new SimpleStringProperty(direccion);
     }
 
@@ -124,6 +143,12 @@ public class Contacto {
         if(ciudad.isEmpty()){
             throw new IllegalArgumentException("Error la ciudad no puede estar vacio");
         }
+        if(ciudad.equalsIgnoreCase("null")){
+            throw new NullPointerException("Error la ciudad no puede ser null");
+        }
+        if(ciudad.isBlank()){
+            throw new IllegalArgumentException("Error la ciudad no puede estar en blanco");
+        }
         this.ciudad = new SimpleStringProperty(ciudad);
     }
 
@@ -138,6 +163,12 @@ public class Contacto {
     public void setCodigoPostal(@NotNull String codigoPostal) {
         if(codigoPostal.isEmpty()){
             throw new IllegalArgumentException("Error la codigo postal no puede estar vacio");
+        }
+        if(codigoPostal.equalsIgnoreCase("null")){
+            throw new NullPointerException("Error el codigo postal no puede ser null");
+        }
+        if(codigoPostal.isBlank()){
+            throw new IllegalArgumentException("Error el codigo postal no puede estar en blanco");
         }
         this.codigoPostal = new SimpleStringProperty(codigoPostal);
     }

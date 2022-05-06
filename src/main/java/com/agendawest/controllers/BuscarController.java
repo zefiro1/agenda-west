@@ -1,9 +1,8 @@
 package com.agendawest.controllers;
 
 import com.agendawest.AgendaApp;
-import com.agendawest.models.contacto.ContactoDAO;
 import com.agendawest.models.contacto.Contacto;
-import com.agendawest.models.jdbc.MyConnection;
+import com.agendawest.models.contacto.ContactoDAO;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
